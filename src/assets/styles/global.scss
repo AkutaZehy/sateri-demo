@@ -1,0 +1,57 @@
+/* 全局样式 */
+@use 'sass:math';
+
+/* 页面分为左右两栏，各占50% */
+.split-screen {
+	display: flex;
+
+	.left {
+		flex: 1;
+		margin-left: 5%;
+	}
+	.right {
+		flex: 1;
+		margin-right: 5%;
+	}
+
+	.left {
+		background-color: #f0f0f0; /* 左边背景色 */
+	}
+
+	.right {
+		background-color: #ffffff; /* 右边背景色 */
+	}
+}
+
+/* 背景文本均为黑色的段落 */
+.hidden-text {
+  background-color: black;
+  color: black;
+}
+
+/* 文本抖动效果 */
+@keyframes wiggle {
+	0%, 100% {
+		transform: translateX(0) translateY(0);
+	}
+	33% {
+		transform: translateX(-5px) translateY(-5px);
+	}
+	66% {
+		transform: translateX(5px) translateY(-5px);
+	}
+}
+.wiggling-text {
+  span {
+    display: inline-block;
+    animation: wiggle 0.2s infinite;
+
+    // 使用循环为每个元素设置不同的动画持续时间
+    @for $i from 1 through 10 {
+      &:nth-child(#{$i}) {
+        $duration: 0.2s + (math.sin($i - 14) * 0.05s);
+        animation-duration: #{$duration};
+      }
+    }
+  }
+}
