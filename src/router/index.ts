@@ -6,6 +6,8 @@ import Password from "../views/Password.vue";
 import Instruction from "../views/Instruction.vue";
 import Puzzle from "../views/Puzzle.vue";
 import Test from "../views/Test.vue";
+import Ending from "../views/Ending.vue";
+import Dead from "../views/Dead.vue";
 
 const routes = [
   {
@@ -49,6 +51,18 @@ const routes = [
     name: 'Test',
     component: Test,
     meta: {title: '测试页面'}
+  },
+  {
+    path: '/ending',
+    name: 'Ending',
+    component: Ending,
+    meta: {title: '结局'}
+  },
+  {
+    path: '/dead',
+    name: 'Dead',
+    component: Dead,
+    meta: {title: '死'}
   }
 ];
 

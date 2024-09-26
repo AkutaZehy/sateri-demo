@@ -29,6 +29,10 @@
 			</p>
 		</div>
 	</div>
+
+	<div>
+		<router-link to="/ending" class="link">跳转到结尾页</router-link>
+	</div>
 </template>
 
 <script>
@@ -72,4 +76,5 @@ export default {
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
 }
+
 </style>
