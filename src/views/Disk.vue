@@ -39,15 +39,8 @@ export default {
   text-align: center;
 }
 
-.video-player {
-  width: 80%;
-  max-width: 800px;
-  margin-top: 10px;
-}
-
 .hidden-text {
   font-size: 12px;
-  color: whitesmoke;
 }
 
 </style>
