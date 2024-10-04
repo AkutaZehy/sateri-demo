@@ -23,6 +23,7 @@ Sateri Project本身于2024-09-05启动。
 |Sep 05|Sateri Project启动。|
 |Sep 13|SPD启动。|
 |Oct 02|完整确认弃置SPD的Tauri源码系列，改用脚本策略。|
+|Oct 04| A-Side定稿。                                   |
 
 详细的灵感变动列表见[日记](docs/diary.md)。
 
