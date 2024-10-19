@@ -238,7 +238,9 @@ stein/9D/+tek/taichan/麦畑(むぎばた)/remmuh/2号./下残/ColaLK：
 
 C-Side：The Standing Coin，标识符TSC。
 
+作为硬币的第三面而生的，“一下子”的本质与内核，关于作品和183。
 
+本节初稿完成于，定稿于。
 
 
 
