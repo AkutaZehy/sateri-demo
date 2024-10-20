@@ -2,7 +2,7 @@
 
 # A-Side：自由链接
 
-A-Side：Start，标识符STA。
+A-Side：A Start，标识符STA。
 
 因为长久的愿望和一下子的想法，于是变成了这样一个未完成的作品。
 
@@ -10,7 +10,7 @@ A-Side：Start，标识符STA。
 
 
 
-灵感是[s0u / ࿊ṨᏫ֯ϮᎪ࿊](https://x.com/ksouta1007)的[Favo s0unds](https://www.bilibili.com/video/BV1gb41167b7/?spm_id_from=333.788.video.desc.click)。 
+灵感是[s0u / ࿊ṨᏫ֯ϮᎪ࿊](https://x.com/ksouta1007)的[Favo s0unds](https://www.bilibili.com/video/BV1gb41167b7)。 
 
 21年的时候木华邀请我搞组曲来着，但是水平太差所以没去，算是个心结吧。
 
@@ -18,9 +18,7 @@ A-Side：Start，标识符STA。
 
 
 
-原定计划是做成[每4小节就更换风格](https://www.bilibili.com/video/BV15N4y1B7Wx)那种感觉，后续因为C-Side的缘故仅保留了音声后就183了，这个等你们看完了C
-
--Side就知道了。
+原定计划是做成[每4小节就更换风格](https://www.bilibili.com/video/BV15N4y1B7Wx)那种感觉，后续因为C-Side的缘故仅保留了音声后就183了，这个等你们看完了C-Side就知道了。
 
 音声的部分，其实很显然，后面一半很多是凑数的，我觉得它们不好，就删掉了。
 
@@ -40,7 +38,7 @@ Favo s0unds就是一个很好的例子，在做B-Side翻收藏夹的时候找到
 
 # B-Side：回渡的噪音
 
-B-Side：Migration，标识符MIG。
+B-Side：Backtracking Migration，标识符MIG。
 
 实际上是回渡藏宝图时一下子的想法，最终变成了这样的形式。
 
@@ -236,7 +234,7 @@ stein/9D/+tek/taichan/麦畑(むぎばた)/remmuh/2号./下残/ColaLK：
 
 # C-Side：月落乌啼
 
-C-Side：The Standing Coin，标识符TSC。
+C-Side：Coin which Stands，标识符CWS。
 
 作为硬币的第三面而生的，“一下子”的本质与内核，关于作品和183。
 
