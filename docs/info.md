@@ -240,5 +240,9 @@ C-Side：Coin which Stands，标识符CWS。
 
 本节初稿完成于，定稿于。
 
+# E-Side: 终局
 
+E-Side: End of File，标识符EOF。
+
+SPD的故事迎来了它的尾声。
 
