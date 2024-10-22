@@ -8,7 +8,7 @@ Sateri Project本身于2024-09-05启动。
 
 将这个计划中灵感的一部分给[《蚊的音MAD征集令3＆4》](https://www.bilibili.com/read/cv38118741/)。
 
-这一部分是，因为<mark>一下子的想法</mark>而生，从而产生的不断演进、不时保存Checkpoint（检查点），最终完成的与Sateri Project<mark>完「方案选单」全无关</mark>的作品集合，称作Sateri Project Demo（以下简称SPD）。
+这一部分是，因为<mark>一下子的想法</mark>而生，从而产生的不断演进、不时保存Checkpoint（检查点），最终完成的与Sateri Project<mark>完全无关</mark>的作品集合，称作Sateri Project Demo（以下简称SPD）。
 
 关于这个作品背后的内容见[内容](docs/info.md)
 
