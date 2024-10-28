@@ -55,6 +55,7 @@ Sateri Project本身于2024-09-05启动。
 |凉郁（凉凉）|[B站](https://space.bilibili.com/561222)|**音声监督**、精神支持|
 |铃仙Official（兔）|[B站](https://space.bilibili.com/39934876)|精神支持|
 |MapleTofuuuU（麻婆豆腐）|[B站](https://space.bilibili.com/304189814)|技术支持（映像、绘画）、精神支持|
+|Mayflew（梅富路）|[B站](https://space.bilibili.com/21601552)|技术支持（哲学、创作）、精神支持|
 |megakite（筝）|[B站](https://space.bilibili.com/1892024)、[个人站](https://megakite.icu)|技术支持（哲学、音声）|
 |塩見斷漄（<ruby>塩<rt>しお</rt>姐</ruby>）|[B站](https://space.bilibili.com/411414378)|技术支持（绘画）|
 |十拾I0（十）|[B站](https://space.bilibili.com/326257606/)|精神支持|
