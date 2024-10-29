@@ -4,6 +4,67 @@
 
 
 
+完整的程序如下图所示：
+
+```mermaid
+flowchart LR
+    S(主程序)
+    EX(程序出口)
+
+    subgraph Storage
+    EF@{ shape: lin-doc, label: "关于创作抑郁的研究" }
+    SNM(特别数字)-->SN[(非数字、0~10、13、14、153、-1、1.618、2.718、3.14、9.8、其余质数)]
+    AST@{ shape: docs, label: "程序资源文件" }
+    end
+
+    subgraph Mainstory
+    S--其余内容-->EX
+
+    S-->AP(A-Side标识符：STA)
+    S--STA-->A(A-Side：自由链接)
+
+    A-->BC(🔐:Code=000 000 001)
+    A-->BP(B-Side标识符：MIG)
+    BP-->BL(B-Side前置)
+    S--MIG-->BL
+    BL--🔐：Code=1-->B(B-Side：回渡的噪音)
+    BL--🔐❌-->EX
+
+    B-->CP(C-Side标识符：CWS)
+    CP-->CL(C-Side前置)
+    S--CWS-->CL
+    CL--“特别数字”-->C(C-Side：月落乌啼)
+    CL--其他数字-->EX
+    
+    C--随机-->C1(自我) & C2(感情) & C3(承诺)
+
+    C1 & C2 & C3 --> EP(E-Side标识符：EOF)
+    EP-->E(E-Side：终局)
+    S--EOF-->E
+
+    E-->EX
+
+    end
+
+    subgraph THE TRUTH
+    S~~~DS(.secret)
+    DS-->DP(D-Side标识符：DIS)
+    S--DIS-->D(D-Side：春眠子)
+    D-->DPZ(谜题)
+    D-->DPA(谜题答案：Daily Dream Decipher)
+
+    DPZ-->EAP(E-Side/Alter标识符：EOFA)
+    D-->EA
+    S--EOFA-->EA(E-Side/Alter：未完时)
+    EA-->EF
+    EA-->FP(F-Side标识符：FIN)
+
+    EA-->F(F-Side:终结的终结)
+    S--FIN-->F
+    F-->G(G-Side:一份礼物)-->EX
+    end
+```
+
 # D-Side：春眠子
 
 D-Side: Died in Spring，标识符DIS，这个标识符隐藏于C-Side的结尾。

@@ -12,6 +12,48 @@ Sateri Project本身于2024-09-05启动。
 
 关于这个作品背后的内容见[内容](docs/info.md)
 
+## 游戏方法
+
+本程序文件结构如下图所示。
+
+```mermaid
+flowchart LR
+    S(主程序)
+    EX(程序出口)
+
+    subgraph Storage
+    AST[(程序资源文件)]
+    end
+
+    subgraph Mainstory
+    S--其余内容-->EX
+
+    S-->AP(A-Side标识符)
+    S--A-Side标识符-->A(A-Side)
+
+    A-->BP(B-Side标识符)
+    BP-->BL(B-Side前置)
+    S--B-Side标识符-->BL
+    BL--特别条件-->B(B-Side)
+    BL--条件错误-->EX
+
+    B-->CP(C-Side标识符)
+    CP-->CL(C-Side前置)
+    S--C-Side标识符-->CL
+    CL--特别条件-->C(C-Side)
+    CL--条件错误-->EX
+    
+    C --> EP(E-Side标识符)
+    EP-->E(E-Side)
+    S--E-Side标识符-->E
+
+    E-->EX
+
+    end
+```
+
+
+
 ## 重大变动记录
 
 日期采用“MMM dd”的模式**顺序**记录。
