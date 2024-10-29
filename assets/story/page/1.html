@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>1</title>
+	<link rel="stylesheet" href="../style.css">
+	<style>
+		#audioPlayer {
+			display: none;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="content">
+		<h1>1</h1>
+
+		<p>
+			在24年9月的一个晚上。
+		</p>
+
+		<p>
+			蚊集令3开始征稿已经开始一周多了，但我还是想不到到底要做什么主题的作品。<br />
+			然后我又像往常一样失眠了，就是那种大半夜了却清醒得很，像猫头鹰一样。
+		</p>
+
+		<p>
+			我在西安这边读书，住14楼，很不吉利的楼层；又高，下楼很不方便，这么高的楼居然只有两部电梯，还有一部经常坏，高峰的时候下一次楼大概能耗我5分钟。<br />
+			西安这边平原很多，昼夜也算有一点温差，在现在这个时候，打开窗户，外面就能听见呼啦啦的风吹声。不过这个点我一般都把窗户关着，因为很吵，睡不着觉。
+		</p>
+
+		<p>
+			苦闷无聊之余，我打开手机的通讯软件，然后不知怎的就想起了小E，一位旧识，不过很久没联系了。我点进了她的空间，但长期没有更新了，最近的一条也是几年前的动态了。<br />
+			我又向其他的与她关系好一些的朋友发消息询问，不过当然，这个点是个正常作息的人都不会回信息。<br />
+		</p>
+
+		<p>
+			读了一点书，正准备睡去的时候，那时差不多快两点了，一位朋友居然给我回消息了：<br />
+			“小C（我的朋友们一般都这么叫我），你不知道吗？”<br />
+			“什么？”<br />
+			“今年春天的时候，人没了。”<br />
+			“啊？怎么回事？抑郁又发了？”<br />
+			“不是，反了，抑郁刚好一点，春天去长江那边游泳，赶上武汉变天，一下子给呛死了。”<br />
+		</p>
+
+		<p>
+			我一下子愣住了，呆呆地望着屏幕。<br />
+			后面发过来的消息，无非是当时旁边的人怎么去救，拉上岸的时候还有一点气， 送去医院没救过来，丧事如何如何简单地办了这样。我没太看进去，也没太认真地回他的消息，只是简单的“嗯”“哦”“唉”反复地重复。<br />
+		</p>
+
+		<p>
+			……<br />
+			“那就这样，晚安，明天还有早八。”<br />
+			我敲下这样一条消息，把手机放到一旁充电，然后把窗子打开。<br />
+			外面风依旧呼啦啦地吹着，天上有一颗星星很亮，那是织女一。<br />
+		</p>
+
+		<p>
+			<span id="playText" style="cursor: pointer; color: blue; text-decoration: underline;">收听西安的风</span>
+			<audio id="audioPlayer" src="../assets/audio/noise.m4a"></audio>
+			<!-- 不，我比谁的都清楚，那不是风的声音，是卡车在旁边的高速公路上疾驰而过。 -->
+		</p>
+
+		<script>
+			document.getElementById('playText').addEventListener('click', function () {
+				var audio = document.getElementById('audioPlayer');
+				audio.play();
+			});
+		</script>
+
+	</div>
+	<div id="pagination">
+		<a href="../index.html">
+			<button id="prev" class="visible">上一页</button>
+		</a>
+		<a href="2.html">
+			<button id="next" class="visible" title="“声音”会被打断">
+				<note>下一页</note>
+			</button>
+		</a>
+	</div>
+</body>
+
+</html>

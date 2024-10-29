@@ -1,0 +1,62 @@
+body {
+	font-family: "仿宋", Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: hidden;
+}
+
+#content {
+	width: 40vw;
+	height: 85vh;
+	margin: 20px 0;
+	padding: 0 40px;
+
+	font-size: 24px;
+	line-height: 1.5;
+	text-align: justify;
+
+	overflow-y: auto;
+}
+
+h1{
+	font-family: 'Source Han Sans CN', '黑体', Arial, sans-serif;
+	font-size: 2rem;
+	margin: 20px 0;
+}
+
+blockquote {
+	background-color: wheat;
+	font-size: 20px;
+	font-style: italic;
+	margin: 20px 0;
+	padding: 5px 15px;
+}
+
+#pagination {
+	display: flex;
+	justify-content: space-between;
+	width: 40vw;
+	margin-bottom: 20px;
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+button.invisible {
+    visibility: hidden;
+}
+
+button:hover {
+	background-color: skyblue;
+}
+
+note {
+	text-decoration: underline;
+	cursor: help;
+}
