@@ -12,9 +12,9 @@ flowchart LR
     EX(程序出口)
 
     subgraph Storage
-    EF@{ shape: lin-doc, label: "关于创作抑郁的研究" }
     SNM(特别数字)-->SN[(非数字、0~10、13、14、153、-1、1.618、2.718、3.14、9.8、其余质数)]
     AST@{ shape: docs, label: "程序资源文件" }
+    EF@{ shape: lin-doc, label: "关于创作抑郁的研究" }
     end
 
     subgraph Mainstory
@@ -50,16 +50,15 @@ flowchart LR
     S~~~DS(.secret)
     DS-->DP(D-Side标识符：DIS)
     S--DIS-->D(D-Side：春眠子)
-    D-->DPZ(谜题)
     D-->DPA(谜题答案：Daily Dream Decipher)
 
-    DPZ-->EAP(E-Side/Alter标识符：EOFA)
-    D-->EA
+    DPA-->EAP(E-Side/Alter标识符：EOFA)
+    EAP-->EA
     S--EOFA-->EA(E-Side/Alter：未完时)
     EA-->EF
-    EA-->FP(F-Side标识符：FIN)
-
+    
     EA-->F(F-Side:终结的终结)
+    EA-->FP(F-Side标识符：FIN)
     S--FIN-->F
     F-->G(G-Side:一份礼物)-->EX
     end
