@@ -103,6 +103,7 @@ flowchart LR
 |十拾I0（十）|[B站](https://space.bilibili.com/326257606/)|精神支持|
 |Snaur（卵）|[B站](https://space.bilibili.com/435083)|技术支持（哲学）、直播内容讨论、精神支持|
 |SuperSuika（西瓜）|[B站](https://space.bilibili.com/691399674)|精神支持|
+|WZQ02（WZQ）|[B站](https://space.bilibili.com/12367945)、[个人站](https://wzq02.top/)|技术支持（哲学）、精神支持|
 |析无澈海（海）|[B站](https://space.bilibili.com/1539434)|技术支持（心理学）、精神支持|
 |盐酸帕罗希汀（盐酸）|呃这个看上去不需要放|技术支持（音声）、精神支持|
 |我的自然辩证法专业课老师lmao|-|~~非主动~~技术支持|
